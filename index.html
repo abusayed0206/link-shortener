@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="styleSheet" href="style.css">
+    <!-- HTML Meta Tags -->
+    <title>Personal Link Shortenter</title>
+    <meta name="description" content="Just a link shortener with short.io API 
+   Life sucks bro!  ">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Sayed">
+    <meta itemprop="description" content="Just a link shortener with short.io API 
+   Life sucks bro!  ">
+    <meta itemprop="image" content="http://raw.githubusercontent.com/abusayed0206/abusayed0206/main/OG_SAYED.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://sayed.page">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sayed">
+    <meta property="og:description" content="Just a link shortener with short.io API 
+   Life sucks bro!  ">
+    <meta property="og:image" content="http://raw.githubusercontent.com/abusayed0206/abusayed0206/main/OG_SAYED.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sayed">
+    <meta name="twitter:description" content="Just a link shortener with short.io API 
+   Life sucks bro!  ">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/abusayed0206/abusayed0206/main/OG_SAYED.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="message">Link Shortener</h1>
+        <div class="input-container">
+            <input name="text" type="url" value="" id="linkinput" placeholder="Paste a URL to shorten">
+            <input type="submit" id="myinput" value="Shorten">
+        </div>
+        <p id="message"></p>
+        <p id="shortLink">
+            Your short link: <span id="shortURL"></span>
+            <button id="copyButton">Copy</button>
+        </p>
+
+        <!-- Popup notification -->
+        <div class="popup" id="popup">Link Copied</div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
